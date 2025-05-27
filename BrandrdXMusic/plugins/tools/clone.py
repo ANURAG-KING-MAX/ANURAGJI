@@ -16,7 +16,7 @@ from BrandrdXMusic import app
 from config import OWNER_ID
 from BrandrdXMusic.misc import SUDOERS
 from BrandrdXMusic.utils.database import get_assistant, clonebotdb
-from BrandrdXMusic.utils.database.clonedb import has_user_cloned_any_bot
+from Clonify.utils.database.clonedb import has_user_cloned_any_bot
 from config import LOGGER_ID, CLONE_LOGGER
 import requests
 from BrandrdXMusic.utils.decorators.language import language
